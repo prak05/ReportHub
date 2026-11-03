@@ -100,3 +100,20 @@ The frontend will be available at **http://localhost:5173**
 - **Backend**: Node.js, Express, better-sqlite3, bcryptjs, jsonwebtoken
 - **Frontend**: React 18, Vite, Tailwind CSS, Axios, React Router v6
 - **Database**: SQLite (via better-sqlite3, file: `backend/reporthub.db`)
+
+## Portfolio brief
+
+A reporting workspace for organizing submissions, status, evidence, and review outcomes in one operational surface.
+
+### Visual system
+
+Palantir-inspired intelligence dashboard: dense but legible tables, clear provenance, monochrome structure, and restrained alert colors.
+
+### Architecture
+
+Separate report intake, validation, storage, workflow state, and presentation so every status transition remains inspectable.
+
+### Run and output
+
+Use the repository's documented local command. Keep uploaded reports and private identifiers outside public fixtures.
+
